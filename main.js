@@ -1,3 +1,3 @@
-function myClick() {
-	document.getElementById("btn").innerHTML = "dsanfkjnd";
+function hello() {
+	this.innerHTML = 'kdnfkjnds';
 }
