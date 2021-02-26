@@ -1,0 +1,112 @@
+<!DOCTYPE hmtl>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="../index_files/style.css">
+	</head>
+	<body>
+    <header>
+      <a class="logo" href="file:///home/vikram/Desktop/HTML/Website/index.html">Logo</a>
+      <div class="links">
+        <a href="file:///home/vikram/Desktop/HTML/Website/C/">C</a>
+        <a href="file:///home/vikram/Desktop/HTML/Website/C++/">C++</a>
+        <a>More </a>
+      </div>
+    </header>
+    
+      <div class="container">
+        <h1 align="center">Say Hello to the world!</h1>
+        <p>
+          Have you been thinking about making your application, But don't know where to start? Worry not. Today we will start the journey by making the world-famous hello world program in C++. 
+        </p>
+        <h3>Prerequisite</h3>
+        <p>
+          <ol>
+            <li>Must know how to operate a computer.</li>
+            <li>Being comfortable in working with a terminal.</li>
+            <li>That's it :)</li>
+          </ol>
+        </p>
+        <h3>What we need?</h3>
+        <p>
+          In order to make a C++ application, the most basic thing that we need is a compiler.
+        </p>
+         <aside>
+           <h5>Compiler</h5>
+           <p>A compiler is a program that converts human-readable code (C/C++) into machine-readable code (machine code). It acts as a translator. <a href="compiler.html">Jump here to read more</a>.</p>
+         </aside>
+
+         <p>Although there are many compilers out in the market, I use <em>g++</em>. Also, It's free.</p>
+
+         <p>Now a lot of people might not agree with me, but I have got a strong faith that one should refrain from using an IDE at the beginning stage and try to get comfortable with using a terminal. The Sooner, the better.</p>
+
+         <p>Having said that, I expect you have already setup g++. If not, search for some article on the web. There are a lot.</p>
+
+         <aside>
+           <p>
+            If you feel you're not ready enough for using a terminal, Don't worry. Just download <em>codeblocks</em>. It's an <abbr title="Integrated development environment">IDE</abbr>. And see how to use it. 
+           </p>
+          </aside>
+
+      <h3>Hello?</h3>
+
+      <p>without further ado, let's start.</p>
+      <p>Fire up your favorite text editor and save it as <strong>what_ever_you_want.cpp</strong>. I'd save it as <strong>main.cpp</strong></p>
+
+      <p>
+        Now write.
+      </p>
+
+      <div class="code">
+        <ol>
+          <li>int main() {</li>
+          <li>return 0;</li>
+          <li>}</li>
+        </ol>
+      </div>
+
+      <p>This is the minimalistic code that one could write.</p>
+      <p>Every C++ program or any program in general needs to start somewhere. In C++, it is <strong>main</strong>. Everytime you run the program, the machine code will be loaded and the OS will call the main function and then the execution will start. More on that later. </p>
+
+      <p>Now add the below line under the first line.</p>
+      <div class="code">
+        <ol>
+          <li>std::cout << "Hello World!";</li>
+        </ol>
+      </div>
+
+      <p><em>std::cout</em> is the C++ way of printing something on screen.</p>
+
+      <p>But C++ doesn't what <em>std::cout</em> is as such. And we need to tell it where to look for its meaning.</p> 
+      <p>Add the next line at start of the program.</p>
+
+      <div class="code">
+        <ol>
+          <li>#include &#60;iostream&#62;</li>
+        <ol>
+      </div>
+
+      <p><abbr title="input output stream">iostream</abbr> is the file which contains the meaning for std::cout.</p>
+
+      <p>Let's see what our program looks like</p>
+
+      <div class="code">
+        <ol>
+          <li>#include &#60;iostream&#62;</li>
+          <li>int main() {</li>
+          <li>std::cout << "Hello World!";</li>
+          <li>return 0;</li>
+          <li>}</li>
+        <ol>
+      </div>
+
+      </div>
+    
+    <footer>
+      <a href="file:///home/vikram/Desktop/HTML/Website/index.html" class="footerLogo logo">Logo</a>
+      <span class="verticalLine"></span>
+      <div>
+      </div>
+    </footer>
+
+
+</body></html>
